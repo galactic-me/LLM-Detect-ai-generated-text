@@ -16,3 +16,19 @@ BURSTINESS:Burstiness refersto the distribution of topics or ideas within a piec
 content. It measures how frequently certain topics or ideas appear in a short span of time.
 A bursty content has frequent occurrences of certain topics, resulting in a non-uniform
 distribution.
+PROCEDURE:
+(1) DATA COLLECTION:
+Data has been collected from kaggle datasets. The links to them are given below:
+https://www.kaggle.com/competitions/llm-detect-ai-generated-text/data
+
+(2) EXPLORATORY DATA ANALYSIS: Data has been analyzed in this step. The missing
+values are handled. Data is visualized using matplotlib.pylot library. ‘Generated’=0 refersto
+student written essays while ‘Generated’=1 refersto LLM generated essays. The percentage
+of student generated/LLM generated is visualized in the form of a pie chart.
+
+(3) MODEL TRAINING: As discussed above, model can be trained using classification
+algorithms such as SVM, Naive Bayes Algorithm. Also aother approach is to fine tune the
+model using pre-trained network such as BERT, GPT-3,RoBERTa.
+
+(4) MODEL EVALUATION: Model will be evaluated using accuracy score, F1 Score,
+confidence score. Naive Bayes is giving an accuracy score of 0.9806 on the testing set.
